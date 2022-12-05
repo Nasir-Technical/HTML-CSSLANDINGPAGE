@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/29790374-a82f-495a-9f04-5ac94c3b4f25/nature-wallpaper13.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo{
+    position: relative;
+    color: rgb(255, 242, 0);
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+}
+header .navbar a{
+      color: #000;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 1px;
+      padding: 2px 15px;
+      border-radius: 20px;
+      transition: 0.3s;
+      transition-property: background-color;
+}
+ 
+header .navbar a:hover{
+    background-color: #fff;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+}
+
+.content .info h2 space{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.content .info-btn{
+    color: #fff;
+    background-color: #fff200;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: backgroundcolor;
+
+}
+.content .info-btn:hover{
+    background-color: #1aff00;
+
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property:transform ;
+    
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+
+}
+
+.insta{
+    color: crimson;
+}
